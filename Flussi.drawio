@@ -54,6 +54,9 @@
         <mxCell id="WgAGnFPgcxRIRjRCsidV-11" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="720" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-12" target="WgAGnFPgcxRIRjRCsidV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WgAGnFPgcxRIRjRCsidV-12" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="840" width="120" height="90" as="geometry" />
         </mxCell>
@@ -66,8 +69,14 @@
         <mxCell id="WgAGnFPgcxRIRjRCsidV-13" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="840" width="120" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-14" target="WgAGnFPgcxRIRjRCsidV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WgAGnFPgcxRIRjRCsidV-14" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="970" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-15" target="WgAGnFPgcxRIRjRCsidV-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WgAGnFPgcxRIRjRCsidV-15" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="970" width="110" height="80" as="geometry" />
@@ -84,11 +93,37 @@
         <mxCell id="WgAGnFPgcxRIRjRCsidV-33" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="720" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WgAGnFPgcxRIRjRCsidV-34" value="Rabbit procede al salvataggio del dato nel file excel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="570" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WgAGnFPgcxRIRjRCsidV-36" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-37" value="Rabbit risponde a iTAWeb che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="700" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="810" as="targetPoint" />
+            <mxPoint x="640" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-41" target="WgAGnFPgcxRIRjRCsidV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-41" value="iTAWeb risponde all&#39;utente che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="820" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-45" target="WgAGnFPgcxRIRjRCsidV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="417" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
