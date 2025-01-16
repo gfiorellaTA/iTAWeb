@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
-  <diagram name="Salvataggio dati " id="lnhMOsqmTjNTGuCewhnC">
+  <diagram name="Salvataggio dati excel" id="lnhMOsqmTjNTGuCewhnC">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-1" target="WgAGnFPgcxRIRjRCsidV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-1" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="70" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-2" target="WgAGnFPgcxRIRjRCsidV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-2" value="Utente compila i dati e clicca &quot;Salva&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-3" target="WgAGnFPgcxRIRjRCsidV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-3" value="I dati vengono salvati in un file json e spediti tramite apposita richiesta a Rabbit (case salvataggio iov)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-4" target="WgAGnFPgcxRIRjRCsidV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-4" target="WgAGnFPgcxRIRjRCsidV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-4" value="Dato presente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-5" target="WgAGnFPgcxRIRjRCsidV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-5" value="Case Rabbit passa ad una funzione per il controllo del dato già presente (tramite Case ID e patient Id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-10" target="WgAGnFPgcxRIRjRCsidV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-10" value="Rabbit risponde con un messaggio (mantenendo in menoria temporanea i dati passati) chiedendo a iTAWeb se si vogliono sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-11" target="WgAGnFPgcxRIRjRCsidV-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-11" target="WgAGnFPgcxRIRjRCsidV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-11" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-12" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-13" target="WgAGnFPgcxRIRjRCsidV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-13" target="WgAGnFPgcxRIRjRCsidV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-13" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="840" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-14" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="970" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-15" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="970" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-31" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-33" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-34" value="Rabbit procede al salvataggio del dato nel file excel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WgAGnFPgcxRIRjRCsidV-36" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
