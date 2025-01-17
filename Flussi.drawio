@@ -129,130 +129,133 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V2VVnelxaoQtcdKCZ-Qb" name="Salvataggio dati database">
-    <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7nF9_-anL13UT8MdPmuo-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-2" target="7nF9_-anL13UT8MdPmuo-4">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-2" target="7nF9_-anL13UT8MdPmuo-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-2" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-2" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="70" width="166" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-4" target="7nF9_-anL13UT8MdPmuo-6">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-4" target="7nF9_-anL13UT8MdPmuo-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-4" value="Utente compila i dati e clicca &quot;Salva&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-4" value="Utente compila i dati e clicca &quot;Salva&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="180" width="166" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-6" target="7nF9_-anL13UT8MdPmuo-11">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-6" target="7nF9_-anL13UT8MdPmuo-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-6" value="I dati vengono salvati in un file json e spediti tramite apposita richiesta a Rabbit (case salvataggio iov)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-6" value="I dati vengono salvati in un file json e spediti tramite apposita richiesta a Rabbit (case salvataggio iov)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="290" width="166" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-13">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-31">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-9" value="Dato presente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-9" value="Dato presente?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397" y="490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-11" target="7nF9_-anL13UT8MdPmuo-9">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-11" target="7nF9_-anL13UT8MdPmuo-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-11" value="Case Rabbit passa ad una funzione per il controllo del dato già presente (tramite Case ID e patient Id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-11" value="Case Rabbit passa ad una funzione per il controllo del dato già presente (tramite Case ID e patient Id)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="390" width="166" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-13" target="7nF9_-anL13UT8MdPmuo-16">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-13" target="7nF9_-anL13UT8MdPmuo-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-13" value="Rabbit risponde con un messaggio (mantenendo in menoria temporanea i dati passati) chiedendo a iTAWeb se si vogliono sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-13" value="Rabbit risponde con un messaggio (mantenendo in menoria temporanea i dati passati) chiedendo a iTAWeb se si vogliono sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="570" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-21">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-18">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-16" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-16" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-18" target="7nF9_-anL13UT8MdPmuo-31">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-18" target="7nF9_-anL13UT8MdPmuo-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-18" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-18" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="840" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-23">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-25">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-21" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-21" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="840" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-23" target="7nF9_-anL13UT8MdPmuo-26">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-23" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-23" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-23" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="970" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-25" target="7nF9_-anL13UT8MdPmuo-26">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-25" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-25" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-25" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="970" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="340" y="1100" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-27" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-27" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-28" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-28" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="720" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-29" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-29" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="720" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-31">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-31" value="Rabbit procede al salvataggio del dato nel database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-31" value="Rabbit procede al salvataggio del dato nel database" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="570" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-33" value="Rabbit risponde a iTAWeb che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-33" value="Rabbit risponde a iTAWeb che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="700" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="810" as="targetPoint" />
             <mxPoint x="640" y="780" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-36" target="7nF9_-anL13UT8MdPmuo-26">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-36" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-36" value="iTAWeb risponde all&#39;utente che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-36" value="iTAWeb risponde all&#39;utente che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="820" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7nF9_-anL13UT8MdPmuo-38" target="7nF9_-anL13UT8MdPmuo-2">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-38" target="7nF9_-anL13UT8MdPmuo-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="7nF9_-anL13UT8MdPmuo-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="417" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s0t2F8ian1a8T_XgM7bp-2" value="Qui userei una query SELECT 1 per verificare che ce ne sia anche solo 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="260" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -262,61 +265,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a4HqSJTFC8imlKY3qq11-1" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="100" width="180" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-2">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-4" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-2">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-5">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-7" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-5">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-8">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-10" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-8">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-1">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-11">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a4HqSJTFC8imlKY3qq11-13" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="a4HqSJTFC8imlKY3qq11-11">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
