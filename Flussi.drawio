@@ -219,7 +219,7 @@
         <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="113" y="-340" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RYF8v7sZY1oHorzUduH5-1" value="RABBIT: EXPORT DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="RYF8v7sZY1oHorzUduH5-1" value="RABBIT: EXPORT DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="-627.5" width="134" height="75" as="geometry" />
         </mxCell>
       </root>
