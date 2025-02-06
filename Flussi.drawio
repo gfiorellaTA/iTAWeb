@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11" pages="5">
   <diagram name="Salvataggio dati excel" id="lnhMOsqmTjNTGuCewhnC">
     <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,146 +446,174 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7RVy5BH65kzdiMN6-1R1" name="Salvataggio dati db def">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-1" target="Kwvn0Bf7kQedkxJi21jZ-5">
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-1" target="vVL7TcAaEjGsF4qYYfit-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-1" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb (cerca patient_id e case_id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="70" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-1" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb (cerca patient_id e case_id)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-1000" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-3" target="Kwvn0Bf7kQedkxJi21jZ-1">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-3" target="Kwvn0Bf7kQedkxJi21jZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="417" width="40" height="40" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="423" y="-1070" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-5" target="Kwvn0Bf7kQedkxJi21jZ-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-5" value="iTAWeb fa una richiesta a rabbit (cerca dati paziente)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="284" y="170" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-6" value="Rabbit si connette ad db, cerca i dati del paziente tramite patient id e case id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="284" y="260" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-7" target="Kwvn0Bf7kQedkxJi21jZ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-7" target="Kwvn0Bf7kQedkxJi21jZ-11">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-5" target="Kwvn0Bf7kQedkxJi21jZ-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="443" y="-400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-7" value="Rabbit trova i dati?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370.5" y="340" width="133" height="100" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-5" value="iTAWeb fa una richiesta a rabbit (cerca dati paziente)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-570" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-8" target="Kwvn0Bf7kQedkxJi21jZ-9">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-6" value="Rabbit si connette ad db, cerca i dati del paziente tramite patient id e case id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-480" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-7" target="Kwvn0Bf7kQedkxJi21jZ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-8" value="Prende i dati dal bd, li salva in un file json e li spedisce a itaweb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-7" target="Kwvn0Bf7kQedkxJi21jZ-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="-330" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-9" target="Kwvn0Bf7kQedkxJi21jZ-16">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-7" value="Rabbit trova i dati?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="376.5" y="-370" width="133" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-8" target="Kwvn0Bf7kQedkxJi21jZ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-9" value="iTAWeb riceve il json, apre la form e compila i campi secondo i dati recuperati a db" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="510" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-8" value="Prende i dati dal bd, li salva in un file json e li spedisce a itaweb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="67" y="-290" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-11" target="Kwvn0Bf7kQedkxJi21jZ-12">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-9" target="Kwvn0Bf7kQedkxJi21jZ-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-11" value="Manda un messaggio di risposta ad iTAWeb in cui comunica di non aver trovato i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="420" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-9" value="iTAWeb riceve il json, apre la form e compila i campi secondo i dati recuperati a db" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67" y="-200" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-12" target="Kwvn0Bf7kQedkxJi21jZ-14">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-11" target="Kwvn0Bf7kQedkxJi21jZ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-12" value="iTAWeb legge il messaggio e apre l&#39;interfaccia della form pulita stampando una popup che informa l&#39;utente che non sono stati trovati dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="510" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-11" value="Manda un messaggio di risposta ad iTAWeb in cui comunica di non aver trovato i dati. iTAWeb riceve e legge il messaggio" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="517" y="-290" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-13" target="Kwvn0Bf7kQedkxJi21jZ-15">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-12" target="Kwvn0Bf7kQedkxJi21jZ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-13" value="L&#39;utente compila i dati e clicca salva, iTAWeb impacchetta i dati in un json e li spedisce a Rabbit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="500" y="600" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-12" value="iTAWeb apre l&#39;interfaccia della form pulita. iTAWeb cancella il nome del paziente dalla lista json che ha in suo possesso" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="517" y="-200" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-14" value="Rabbit salva a db i nuovi dati e risponde con un messaggio di successo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="500" y="680" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-15" target="Kwvn0Bf7kQedkxJi21jZ-40">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-13" target="Kwvn0Bf7kQedkxJi21jZ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-15" value="iTAWeb chiude la form e stampa una popup di successo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="760" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-13" value="L&#39;utente compila i dati e clicca salva, iTAWeb impacchetta i dati in un json, aggiorna il suo file json con la lista dei pazienti compilati e spedisce i dati a Rabbit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="517" y="-110" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-16" target="Kwvn0Bf7kQedkxJi21jZ-18">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-14" value="Rabbit salva a db i nuovi dati e risponde con un messaggio di successo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="517" y="-30" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-15" target="Kwvn0Bf7kQedkxJi21jZ-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-16" value="Se l&#39;utente modifica la form e clicca salva, iTAWeb mostra una popup in cui chiede conferma di volere modificare i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="600" width="306" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-15" value="iTAWeb chiude la form e stampa una popup di successo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="517" y="50" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-19">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-16" target="Kwvn0Bf7kQedkxJi21jZ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-20">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-16" value="Se l&#39;utente modifica la form e clicca salva, iTAWeb mostra una popup in cui chiede conferma di volere modificare i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67" y="-110" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-18" value="Modificare i dati?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="144.5" y="700" width="117" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-19" target="Kwvn0Bf7kQedkxJi21jZ-40">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-19" value="iTAWeb mantiene l&#39;interfaccia aperta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="23" y="790" width="140" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-18" value="Modificare i dati?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="161.5" y="-10" width="117" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-20" target="Kwvn0Bf7kQedkxJi21jZ-22">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-19" target="Kwvn0Bf7kQedkxJi21jZ-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-20" value="iTAWeb impacchetta tutti i dati in un json e li spedisce a rabbit (modifica dati)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="790" width="170" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-19" value="iTAWeb mantiene l&#39;interfaccia aperta" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-21" target="Kwvn0Bf7kQedkxJi21jZ-23">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-20" target="Kwvn0Bf7kQedkxJi21jZ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-21" value="Rabbit cerca il paziente a db tramite patient_id e case_id e sostituisce tutti i dati" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="870" width="170" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-20" value="iTAWeb impacchetta tutti i dati in un json e li spedisce a rabbit (modifica dati)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="267" y="80" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-22" target="Kwvn0Bf7kQedkxJi21jZ-23">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-21" target="Kwvn0Bf7kQedkxJi21jZ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-22" value="Rabbit manda un messaggio di successo a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="950" width="170" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-21" value="Rabbit cerca il paziente a db tramite patient_id e case_id e sostituisce tutti i dati" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="267" y="160" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-23" target="Kwvn0Bf7kQedkxJi21jZ-40">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-22" target="Kwvn0Bf7kQedkxJi21jZ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-23" value="iTAWeb chiude la pagina e mostra la popup di successo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1040" width="170" height="60" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-22" value="Rabbit manda un messaggio di successo a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="267" y="240" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NOTA&lt;/h1&gt;&lt;div&gt;Se qualcosa lato rabbit va storto, viene stampato un messaggio di errore su itaweb mantenendo sempre le interfacce aperte, in modo da non fare perdere i dati modificati&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="930" width="216" height="150" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-23" target="Kwvn0Bf7kQedkxJi21jZ-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="193" y="1119" width="50" height="50" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-23" value="iTAWeb chiude la pagina e mostra la popup di successo" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="267" y="330" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7w4qRg2158VPI0fPY9Ug-1" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="173" y="350" width="60" height="30" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NOTA&lt;/h1&gt;&lt;div&gt;Se qualcosa lato rabbit va storto, viene stampato un messaggio di errore su itaweb mantenendo sempre le interfacce aperte, in modo da non fare perdere i dati modificati&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="710" y="160" width="216" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="7w4qRg2158VPI0fPY9Ug-2" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="350" width="60" height="30" as="geometry" />
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="210" y="409" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7w4qRg2158VPI0fPY9Ug-3" value="RABBIT: SALVA DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="820" y="660" width="134" height="30" as="geometry" />
+        <mxCell id="7w4qRg2158VPI0fPY9Ug-1" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="-360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7w4qRg2158VPI0fPY9Ug-4" value="RABBIT: CERCA PAZIENTE e RECUPERO DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="90" y="275" width="134" height="75" as="geometry" />
+        <mxCell id="7w4qRg2158VPI0fPY9Ug-2" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="627" y="-360" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JNAMalrbYf8QJ0yQ6vHU-2" value="RABBIT: MODIFICA DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="900" width="134" height="75" as="geometry" />
+        <mxCell id="7w4qRg2158VPI0fPY9Ug-3" value="RABBIT: SALVA DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="840" y="-20" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7w4qRg2158VPI0fPY9Ug-4" value="RABBIT: CERCA PAZIENTE e RECUPERO DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="-530" width="134" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="JNAMalrbYf8QJ0yQ6vHU-2" value="RABBIT: MODIFICA DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="462" y="197.5" width="134" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVL7TcAaEjGsF4qYYfit-1" target="vVL7TcAaEjGsF4qYYfit-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-1" value="iTAWeb controlla la lista dei pazienti compilati (file json in itaweb)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-900" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vVL7TcAaEjGsF4qYYfit-2" target="Kwvn0Bf7kQedkxJi21jZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vVL7TcAaEjGsF4qYYfit-2" target="Kwvn0Bf7kQedkxJi21jZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="-730" />
+              <mxPoint x="950" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-2" value="Paziente presente in lista?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343.25" y="-810" width="199.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-6" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449.5" y="-630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-8" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="567" y="-770" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
