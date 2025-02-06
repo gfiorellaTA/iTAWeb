@@ -615,6 +615,9 @@
         <mxCell id="vVL7TcAaEjGsF4qYYfit-8" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="567" y="-770" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vVL7TcAaEjGsF4qYYfit-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;NOTA&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Durante la fase di verifica e compilazione dei dati se presenti, l&#39;interfaccia mostra un loader, che sparirà quando arriveranno i dati da rabbit o quando itaweb avrà controllato che non esistono i dati del paziente&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-950" width="325" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
