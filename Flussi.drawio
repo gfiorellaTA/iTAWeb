@@ -622,135 +622,188 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5KvDvGd0dBhKsh65dZ5G" name="Rabbit">
-    <mxGraphModel dx="2514" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gUTsz5R1Qwb6rSdUqt3Q-1" value="FUNZIONE &lt;b&gt;CERCA_PAZIENTE e RECUPERO DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="gUTsz5R1Qwb6rSdUqt3Q-1" value="FUNZIONE &lt;b&gt;CERCA_PAZIENTE e RECUPERO DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="300" y="120" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GjvslqOpbqZOcT5x9xSD-1" value="FUNZIONE &lt;b&gt;SALVA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="GjvslqOpbqZOcT5x9xSD-1" value="FUNZIONE &lt;b&gt;SALVA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="300" y="220" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ptny8NHTgxG85DjU5v2o-1" value="FUNZIONE &lt;b&gt;MODIFICA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Ptny8NHTgxG85DjU5v2o-1" value="FUNZIONE &lt;b&gt;MODIFICA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="300" y="320" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ptny8NHTgxG85DjU5v2o-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FUNZIONI RABBIT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ptny8NHTgxG85DjU5v2o-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FUNZIONI RABBIT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="322.5" y="20" width="145" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ptny8NHTgxG85DjU5v2o-3" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" vertex="1" parent="1">
-          <mxGeometry x="270" y="20" width="270" height="400" as="geometry" />
+        <mxCell id="Ptny8NHTgxG85DjU5v2o-3" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="270" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-1" target="maSomGKUCgi98WvMdtrk-6">
+        <mxCell id="maSomGKUCgi98WvMdtrk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="maSomGKUCgi98WvMdtrk-1" target="maSomGKUCgi98WvMdtrk-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-1" value="FUNZIONE &lt;b&gt;CERCA_PAZIENTE e RECUPERO DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-1" value="FUNZIONE &lt;b&gt;CERCA_PAZIENTE e RECUPERO DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-508" y="120" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-2" target="maSomGKUCgi98WvMdtrk-15">
+        <mxCell id="maSomGKUCgi98WvMdtrk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="maSomGKUCgi98WvMdtrk-2" target="maSomGKUCgi98WvMdtrk-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-2" value="FUNZIONE &lt;b&gt;SALVA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-2" value="FUNZIONE &lt;b&gt;SALVA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-508" y="220" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-3" target="maSomGKUCgi98WvMdtrk-20">
+        <mxCell id="maSomGKUCgi98WvMdtrk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="maSomGKUCgi98WvMdtrk-3" target="maSomGKUCgi98WvMdtrk-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-3" value="FUNZIONE &lt;b&gt;MODIFICA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-3" value="FUNZIONE &lt;b&gt;MODIFICA DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-508" y="320" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FUNZIONI iTAWeb&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;FUNZIONI iTAWeb&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-485.5" y="20" width="145" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-5" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="20" width="270" height="390" as="geometry" />
+        <mxCell id="maSomGKUCgi98WvMdtrk-5" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" parent="1" vertex="1">
+          <mxGeometry x="-550" y="20" width="270" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-6" value="cerca paziente" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-6" value="cerca paziente" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="-248" y="100" width="468" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-7" value="function_Id&amp;nbsp; == 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-6">
+        <mxCell id="maSomGKUCgi98WvMdtrk-7" value="function_Id&amp;nbsp; == 1" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-6" vertex="1" collapsed="1">
           <mxGeometry x="48" width="420" height="30" as="geometry">
             <mxRectangle x="20" width="460" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-8" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-6">
+        <mxCell id="maSomGKUCgi98WvMdtrk-8" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-6" vertex="1" collapsed="1">
           <mxGeometry x="48" y="30" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="30" width="460" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-9" value="dati aggiunti relativi alla lesione NO" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-6">
+        <mxCell id="maSomGKUCgi98WvMdtrk-9" value="dati aggiunti relativi alla lesione NO" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-6" vertex="1" collapsed="1">
           <mxGeometry x="48" y="60" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="60" width="460" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;function_id&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1 --&amp;gt; cerca_paziente e recupero_dati&lt;/p&gt;&lt;p&gt;2 --&amp;gt; salva_dati&lt;/p&gt;&lt;p&gt;3 --&amp;gt; modifica_dati&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-548" y="490" width="300" height="120" as="geometry" />
+        <mxCell id="maSomGKUCgi98WvMdtrk-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;function_id&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1 --&amp;gt; cerca_paziente e recupero_dati&lt;/p&gt;&lt;p&gt;2 --&amp;gt; salva_dati&lt;/p&gt;&lt;p&gt;3 --&amp;gt; modifica_dati&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-548" y="620" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-13" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="440" width="1150" height="210" as="geometry" />
+        <mxCell id="maSomGKUCgi98WvMdtrk-13" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;perimeterSpacing=5;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="570" width="1150" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-14" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;LEGENDA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-34" y="450" width="60" height="30" as="geometry" />
+        <mxCell id="maSomGKUCgi98WvMdtrk-14" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;LEGENDA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-34" y="580" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-15" value="salva dati" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-15" value="salva dati" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="-248" y="210" width="468" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-16" value="function_Id&amp;nbsp; == 2" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-15">
+        <mxCell id="maSomGKUCgi98WvMdtrk-16" value="function_Id&amp;nbsp; == 2" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-15" vertex="1" collapsed="1">
           <mxGeometry x="48" width="420" height="30" as="geometry">
             <mxRectangle x="20" width="460" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-17" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-15">
+        <mxCell id="maSomGKUCgi98WvMdtrk-17" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-15" vertex="1" collapsed="1">
           <mxGeometry x="48" y="30" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="30" width="460" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-18" value="dati aggiunti relativi alla lesione SI" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-15">
+        <mxCell id="maSomGKUCgi98WvMdtrk-18" value="dati aggiunti relativi alla lesione SI" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-15" vertex="1" collapsed="1">
           <mxGeometry x="48" y="60" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="60" width="460" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-20" value="modifica dati" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-20" value="modifica dati" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="-248" y="320" width="468" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-21" value="function_Id&amp;nbsp; == 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-20">
+        <mxCell id="maSomGKUCgi98WvMdtrk-21" value="function_Id&amp;nbsp; == 3" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-20" vertex="1" collapsed="1">
           <mxGeometry x="48" width="420" height="30" as="geometry">
             <mxRectangle x="20" width="460" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-22" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-20">
+        <mxCell id="maSomGKUCgi98WvMdtrk-22" value="anagrafica_paz == patient_id_iov + case_id" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-20" vertex="1" collapsed="1">
           <mxGeometry x="48" y="30" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="30" width="460" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-23" value="dati aggiunti relativi alla lesione SI" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="maSomGKUCgi98WvMdtrk-20">
+        <mxCell id="maSomGKUCgi98WvMdtrk-23" value="dati aggiunti relativi alla lesione SI" style="swimlane;startSize=20;horizontal=0;html=1;" parent="maSomGKUCgi98WvMdtrk-20" vertex="1" collapsed="1">
           <mxGeometry x="48" y="60" width="420" height="30" as="geometry">
             <mxRectangle x="20" y="60" width="460" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-8" target="gUTsz5R1Qwb6rSdUqt3Q-1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="maSomGKUCgi98WvMdtrk-8" target="gUTsz5R1Qwb6rSdUqt3Q-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-17" target="GjvslqOpbqZOcT5x9xSD-1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="maSomGKUCgi98WvMdtrk-17" target="GjvslqOpbqZOcT5x9xSD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="maSomGKUCgi98WvMdtrk-22" target="Ptny8NHTgxG85DjU5v2o-1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="maSomGKUCgi98WvMdtrk-22" target="Ptny8NHTgxG85DjU5v2o-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SERVER RABBIT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SERVER RABBIT&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-70" y="20" width="145" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="maSomGKUCgi98WvMdtrk-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CASE 5&lt;/h1&gt;&lt;div&gt;Su Rabbit rimango sempre con il case 5, quando entro nella if condition su python, leggo la function_id, in base a quella entro in 3 diverse funzioni&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="maSomGKUCgi98WvMdtrk-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CASE 5&lt;/h1&gt;&lt;div&gt;Su Rabbit rimango sempre con il case 5, quando entro nella if condition su python, leggo la function_id, in base a quella entro in 4 diverse funzioni&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="570" y="70" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FG57UyoD27M-KgsoRSV4-1" value="FUNZIONE &lt;b&gt;EXPORT DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-508" y="420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG57UyoD27M-KgsoRSV4-3" value="EXPORT" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="430" width="468" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FG57UyoD27M-KgsoRSV4-4" value="function_Id&amp;nbsp; == 4" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" collapsed="1" parent="FG57UyoD27M-KgsoRSV4-3">
+          <mxGeometry x="48" width="420" height="30" as="geometry">
+            <mxRectangle x="20" width="460" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FG57UyoD27M-KgsoRSV4-11" value="FUNZIONE &lt;b&gt;EXPORT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="MJxTFOMfUjXFIZNc5Plz" name="Export dati excel">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-2" target="-XsnDT9_CcCyfoiY3vmP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-2" value="Utente clicca sul bottone del menù a tendina &quot;Esporta tutti i dati&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-820" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-4" target="-XsnDT9_CcCyfoiY3vmP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-890" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-5" target="BQk0aoC2qQHenK8O07Tc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-5" value="iTAWeb manda la richiesta a rabbit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-720" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-1" target="BQk0aoC2qQHenK8O07Tc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-1" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-620" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-2" target="BQk0aoC2qQHenK8O07Tc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-2" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-520" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-3" target="BQk0aoC2qQHenK8O07Tc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-3" value="iTAWeb scarica il file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-430" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-340" width="40" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
