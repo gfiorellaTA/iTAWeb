@@ -1,450 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11" pages="6">
-  <diagram name="Salvataggio dati excel" id="lnhMOsqmTjNTGuCewhnC">
-    <mxGraphModel dx="1562" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-1" target="WgAGnFPgcxRIRjRCsidV-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-1" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="70" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-2" target="WgAGnFPgcxRIRjRCsidV-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-2" value="Utente compila i dati e clicca &quot;Salva&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="180" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-3" target="WgAGnFPgcxRIRjRCsidV-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-3" value="I dati vengono salvati in un file json e spediti tramite apposita richiesta a Rabbit (case salvataggio iov)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="290" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-4" target="WgAGnFPgcxRIRjRCsidV-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-4" target="WgAGnFPgcxRIRjRCsidV-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-4" value="Dato presente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="397" y="490" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-5" target="WgAGnFPgcxRIRjRCsidV-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-5" value="Case Rabbit passa ad una funzione per il controllo del dato già presente (tramite Case ID e patient Id)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="390" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-10" target="WgAGnFPgcxRIRjRCsidV-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-10" value="Rabbit risponde con un messaggio (mantenendo in menoria temporanea i dati passati) chiedendo a iTAWeb se si vogliono sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="570" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-11" target="WgAGnFPgcxRIRjRCsidV-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-11" target="WgAGnFPgcxRIRjRCsidV-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-11" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-12" target="WgAGnFPgcxRIRjRCsidV-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-12" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="840" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-13" target="WgAGnFPgcxRIRjRCsidV-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-13" target="WgAGnFPgcxRIRjRCsidV-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-13" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="840" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-14" target="WgAGnFPgcxRIRjRCsidV-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-14" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="970" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-15" target="WgAGnFPgcxRIRjRCsidV-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-15" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="970" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1100" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-31" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="490" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="720" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-33" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="720" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-34" value="Rabbit procede al salvataggio del dato nel file excel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="570" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-36" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-37" value="Rabbit risponde a iTAWeb che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="700" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="810" as="targetPoint" />
-            <mxPoint x="640" y="780" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-41" target="WgAGnFPgcxRIRjRCsidV-29">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-41" value="iTAWeb risponde all&#39;utente che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="820" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WgAGnFPgcxRIRjRCsidV-45" target="WgAGnFPgcxRIRjRCsidV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WgAGnFPgcxRIRjRCsidV-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="417" width="40" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="V2VVnelxaoQtcdKCZ-Qb" name="Salvataggio dati database">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="7nF9_-anL13UT8MdPmuo-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-2" target="7nF9_-anL13UT8MdPmuo-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-2" value="Utente apre interfaccia per la compilazione dei dati da iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="70" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-4" target="7nF9_-anL13UT8MdPmuo-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-4" value="Utente compila i dati e clicca &quot;Salva&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="180" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-6" target="7nF9_-anL13UT8MdPmuo-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-6" value="I dati vengono salvati in un file json e spediti tramite apposita richiesta a Rabbit (case salvataggio iov)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="290" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-9" target="7nF9_-anL13UT8MdPmuo-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-9" value="Dato presente?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="397" y="490" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-11" target="7nF9_-anL13UT8MdPmuo-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-11" value="Case Rabbit passa ad una funzione per il controllo del dato già presente (tramite Case ID e patient Id)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="390" width="166" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-13" target="7nF9_-anL13UT8MdPmuo-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-13" value="Rabbit risponde con un messaggio (mantenendo in menoria temporanea i dati passati) chiedendo a iTAWeb se si vogliono sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="570" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-16" target="7nF9_-anL13UT8MdPmuo-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-16" value="Utente risponde" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-18" target="7nF9_-anL13UT8MdPmuo-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-18" value="iTAWeb risponde a Rabbit che vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="840" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-21" target="7nF9_-anL13UT8MdPmuo-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-21" value="iTAWeb risponde a Rabbit che NON vuole sovrascrivere i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="840" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-23" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-23" value="Rabbit elimina i dati temporanei e chiude il case" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="970" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-25" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-25" value="iTAWeb chiude l&#39;interfaccia rispondendo &quot;dati non sovrascritti&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="970" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1100" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-27" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="260" y="490" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-28" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="720" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-29" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="720" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-31" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-31" value="Rabbit procede al salvataggio del dato nel database" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="570" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-32" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-33" value="Rabbit risponde a iTAWeb che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="700" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="810" as="targetPoint" />
-            <mxPoint x="640" y="780" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7nF9_-anL13UT8MdPmuo-36" target="7nF9_-anL13UT8MdPmuo-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-36" value="iTAWeb risponde all&#39;utente che i dati sono stati salvati correttamente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="820" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7nF9_-anL13UT8MdPmuo-38" target="7nF9_-anL13UT8MdPmuo-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7nF9_-anL13UT8MdPmuo-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="417" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="s0t2F8ian1a8T_XgM7bp-2" value="Qui userei una query SELECT 1 per verificare che ce ne sia anche solo 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="540" y="400" width="260" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="v9fva2ukW04grqKz185k" name="Bozza db">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="20A96OSpztVNJSxIFfSj-1" value="PAZIENTI" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="130" y="80" width="180" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="20A96OSpztVNJSxIFfSj-1" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-3" value="PK,FK1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="20A96OSpztVNJSxIFfSj-2" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-4" value="PATIENT ID" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-2" vertex="1">
-          <mxGeometry x="60" width="120" height="30" as="geometry">
-            <mxRectangle width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;" parent="20A96OSpztVNJSxIFfSj-1" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-6" value="PK,FK2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="20A96OSpztVNJSxIFfSj-5" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-7" value="CASE ID" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-5" vertex="1">
-          <mxGeometry x="60" width="120" height="30" as="geometry">
-            <mxRectangle width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="20A96OSpztVNJSxIFfSj-1" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="20A96OSpztVNJSxIFfSj-8" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-10" value="Volpara Study ID" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-8" vertex="1">
-          <mxGeometry x="60" width="120" height="30" as="geometry">
-            <mxRectangle width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="20A96OSpztVNJSxIFfSj-1" vertex="1">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="20A96OSpztVNJSxIFfSj-11" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-13" value="dati clinici generici" style="shape=partialRectangle;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=#d6b656;" parent="20A96OSpztVNJSxIFfSj-11" vertex="1">
-          <mxGeometry x="60" width="120" height="30" as="geometry">
-            <mxRectangle width="120" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-14" value="LESIONI" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="80" width="180" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="20A96OSpztVNJSxIFfSj-14" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-16" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-15" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-17" value="ID Lesione" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-15" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-14" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-19" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-18" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-20" value="Patient id" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-18" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-14" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-22" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-21" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-23" value="case id" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-21" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-14" vertex="1">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-25" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-24" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-26" value="volpara study id" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;strokeColor=#82b366;" parent="20A96OSpztVNJSxIFfSj-24" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-28" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="20A96OSpztVNJSxIFfSj-5" target="20A96OSpztVNJSxIFfSj-18" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="360" y="430" as="sourcePoint" />
-            <mxPoint x="460" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-29" value="altre lesioni" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="280" width="180" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="20A96OSpztVNJSxIFfSj-29" vertex="1">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-31" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-30" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-32" value="ID Lesione" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-30" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-29" vertex="1">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-34" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-33" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-35" value="patient id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-33" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-29" vertex="1">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-37" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-36" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-38" value="study id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-36" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="20A96OSpztVNJSxIFfSj-29" vertex="1">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-40" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-39" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-41" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="20A96OSpztVNJSxIFfSj-39" vertex="1">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20A96OSpztVNJSxIFfSj-42" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="20A96OSpztVNJSxIFfSj-5" target="20A96OSpztVNJSxIFfSj-33" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="360" y="430" as="sourcePoint" />
-            <mxPoint x="460" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11" pages="3">
   <diagram id="7RVy5BH65kzdiMN6-1R1" name="Salvataggio dati db def">
     <mxGraphModel dx="2049" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -621,7 +175,57 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5KvDvGd0dBhKsh65dZ5G" name="Rabbit">
+  <diagram id="MJxTFOMfUjXFIZNc5Plz" name="Export dati excel">
+    <mxGraphModel dx="2261" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-2" target="-XsnDT9_CcCyfoiY3vmP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-2" value="Utente clicca sul bottone del menù a tendina &quot;Esporta tutti i dati&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-820" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-4" target="-XsnDT9_CcCyfoiY3vmP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-890" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-5" target="BQk0aoC2qQHenK8O07Tc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-5" value="iTAWeb manda la richiesta a rabbit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-720" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-1" target="BQk0aoC2qQHenK8O07Tc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-1" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-620" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-2" target="BQk0aoC2qQHenK8O07Tc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-2" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-520" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-3" target="BQk0aoC2qQHenK8O07Tc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-3" value="iTAWeb scarica il file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-430" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="113" y="-340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RYF8v7sZY1oHorzUduH5-1" value="RABBIT: EXPORT DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-627.5" width="134" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5KvDvGd0dBhKsh65dZ5G" name="Rabbit functions">
     <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -743,7 +347,7 @@
         <mxCell id="maSomGKUCgi98WvMdtrk-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CASE 5&lt;/h1&gt;&lt;div&gt;Su Rabbit rimango sempre con il case 5, quando entro nella if condition su python, leggo la function_id, in base a quella entro in 4 diverse funzioni&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="570" y="70" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="FG57UyoD27M-KgsoRSV4-1" value="FUNZIONE &lt;b&gt;EXPORT DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="FG57UyoD27M-KgsoRSV4-1" value="FUNZIONE &lt;b&gt;EXPORT DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-508" y="420" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FG57UyoD27M-KgsoRSV4-3" value="EXPORT" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=48;horizontalStack=0;html=1;" vertex="1" parent="1">
@@ -754,55 +358,8 @@
             <mxRectangle x="20" width="460" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FG57UyoD27M-KgsoRSV4-11" value="FUNZIONE &lt;b&gt;EXPORT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="FG57UyoD27M-KgsoRSV4-11" value="FUNZIONE &lt;b&gt;EXPORT DATI&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="300" y="420" width="190" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="MJxTFOMfUjXFIZNc5Plz" name="Export dati excel">
-    <mxGraphModel dx="2261" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-2" target="-XsnDT9_CcCyfoiY3vmP-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-2" value="Utente clicca sul bottone del menù a tendina &quot;Esporta tutti i dati&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-820" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-4" target="-XsnDT9_CcCyfoiY3vmP-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="113" y="-890" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-5" target="BQk0aoC2qQHenK8O07Tc-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-5" value="iTAWeb manda la richiesta a rabbit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-720" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-1" target="BQk0aoC2qQHenK8O07Tc-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-1" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-620" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-2" target="BQk0aoC2qQHenK8O07Tc-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-2" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-520" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-3" target="BQk0aoC2qQHenK8O07Tc-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-3" value="iTAWeb scarica il file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-430" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="113" y="-340" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
