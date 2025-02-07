@@ -83,7 +83,7 @@
         <mxCell id="Kwvn0Bf7kQedkxJi21jZ-16" value="Se l&#39;utente modifica la form e clicca salva, iTAWeb mostra una popup in cui chiede conferma di volere modificare i dati" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397" y="-5" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-19" edge="1">
+        <mxCell id="Kwvn0Bf7kQedkxJi21jZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PQXDbnC_5z36rxaLY0L4-2" target="Kwvn0Bf7kQedkxJi21jZ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Kwvn0Bf7kQedkxJi21jZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="Kwvn0Bf7kQedkxJi21jZ-20" edge="1">
@@ -171,6 +171,18 @@
         </mxCell>
         <mxCell id="vVL7TcAaEjGsF4qYYfit-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;NOTA&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Durante la fase di verifica e compilazione dei dati se presenti, l&#39;interfaccia mostra un loader, che sparirà quando arriveranno i dati da rabbit o quando itaweb avrà controllato che non esistono i dati del paziente&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1100" y="-845" width="325" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PQXDbnC_5z36rxaLY0L4-1" value="Si" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PQXDbnC_5z36rxaLY0L4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kwvn0Bf7kQedkxJi21jZ-18" target="PQXDbnC_5z36rxaLY0L4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="135" as="sourcePoint" />
+            <mxPoint x="440" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQXDbnC_5z36rxaLY0L4-2" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="105" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
