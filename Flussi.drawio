@@ -192,46 +192,42 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-2" target="-XsnDT9_CcCyfoiY3vmP-5">
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-XsnDT9_CcCyfoiY3vmP-2" target="-XsnDT9_CcCyfoiY3vmP-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-2" value="Utente clicca sul bottone del menù a tendina &quot;Esporta tutti i dati&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-2" value="Utente clicca sul bottone del menù a tendina &quot;Esporta tutti i dati&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-820" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-4" target="-XsnDT9_CcCyfoiY3vmP-2">
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-XsnDT9_CcCyfoiY3vmP-4" target="-XsnDT9_CcCyfoiY3vmP-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="113" y="-890" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XsnDT9_CcCyfoiY3vmP-5" target="BQk0aoC2qQHenK8O07Tc-1">
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-XsnDT9_CcCyfoiY3vmP-5" target="BQk0aoC2qQHenK8O07Tc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-XsnDT9_CcCyfoiY3vmP-5" value="iTAWeb manda la richiesta a rabbit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-XsnDT9_CcCyfoiY3vmP-5" value="iTAWeb manda la richiesta a rabbit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-720" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-1" target="BQk0aoC2qQHenK8O07Tc-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BQk0aoC2qQHenK8O07Tc-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="133" y="-520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-1" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-1" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-620" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-2" target="BQk0aoC2qQHenK8O07Tc-3">
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BQk0aoC2qQHenK8O07Tc-3" target="BQk0aoC2qQHenK8O07Tc-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-2" value="Rabbit effettua un export a db di tutti i dati, li aggrega e li salva in un csv. Manda il csv a iTAWeb" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-3" value="iTAWeb scarica il file" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-520" width="306" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BQk0aoC2qQHenK8O07Tc-3" target="BQk0aoC2qQHenK8O07Tc-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="113" y="-430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-3" value="iTAWeb scarica il file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="-430" width="306" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BQk0aoC2qQHenK8O07Tc-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="113" y="-340" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RYF8v7sZY1oHorzUduH5-1" value="RABBIT: EXPORT DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="RYF8v7sZY1oHorzUduH5-1" value="RABBIT: EXPORT DATI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="330" y="-627.5" width="134" height="75" as="geometry" />
         </mxCell>
       </root>
